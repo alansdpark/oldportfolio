@@ -3,12 +3,12 @@ body {
 	background-image: url("Falls2.jpg");
 	background-position: center;
 	background-size: cover;
-	height: 700px;
+	height: 500px;
 }
 
 .backgroundChange {
 	color: white;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .firstJumb {
@@ -20,4 +20,12 @@ body {
 .insideJumbo {
 	opacity: 1.0;
 	color: black;
+}
+
+.navbar-inverse {
+  background: #CD853F;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: white;
 }
