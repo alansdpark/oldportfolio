@@ -1,0 +1,19 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+	background-image: url("Falls2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.firstJumb {
+	margin-top: 50px;
+	height: 500px;
+	opacity: 0.85;
+	background-color: white;
+}
+
+.insideJumbo {
+	opacity: 1.0;
+	color: black;
+}
