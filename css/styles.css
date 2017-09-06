@@ -1,13 +1,17 @@
 body {
 	font-family: 'Work Sans', sans-serif;
-	color: white;
 	background-image: url("Falls2.jpg");
 	background-position: center;
 	background-size: cover;
+	height: 700px;
+}
+
+.backgroundChange {
+	color: white;
+	margin-top: 50px;
 }
 
 .firstJumb {
-	margin-top: 50px;
 	height: 500px;
 	opacity: 0.85;
 	background-color: white;
