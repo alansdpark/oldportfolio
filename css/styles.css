@@ -67,11 +67,11 @@ h1 {
 }
 
 .navbar-inverse {
-  background: #233E2D;
+  background: white;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-  color: white;
+  color: black;
 }
 
 .button-small {
