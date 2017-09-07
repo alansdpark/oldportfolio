@@ -7,14 +7,6 @@ body {
 	/*height: 500px;*/
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: gray;
-}
-
- .navbar-inverse .navbar-nav>li>a:visited, .navbar-inverse .navbar-nav>li>a:focus {
-	color: black;
-}
-
 h1 {
 	margin-bottom: 10px;
 }
