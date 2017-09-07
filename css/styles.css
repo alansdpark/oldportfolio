@@ -6,13 +6,33 @@ body {
 	height: 500px;
 }
 
+h1 {
+	margin-bottom: 10px;
+}
+
+.leftMenu {
+	margin-left: 0px;
+	height: 100%;
+	background-color: white;
+	width: 17%;
+	position: fixed;
+	left: 0;
+}
+
+.logoA {
+	/*make centered*/
+	/*should collapse at medium or small*/
+}
+
 .backgroundChange {
 	color: white;
-	margin-top: 100px;
+	margin-top: 0;
 }
 
 .firstJumb {
-	height: 500px;
+	height: 100%;
+	margin-left: 250px;
+	margin-top: 100px;
 	opacity: 0.85;
 	background-color: white;
 }
@@ -30,6 +50,14 @@ body {
   color: white;
 }
 
+.button-small {
+	font-size: 85%;
+}
+
+.button-small:hover {
+	font-size: 100%;
+}
+
 .jumbotron p {
 	margin-left: 75px;
 	margin-right: 75px;
@@ -39,9 +67,5 @@ body {
 .borderSplit {
 	width: 500px;
 	border-bottom: 1px solid black;
-}
-
-.LosAltos {
 	padding-bottom: 10px;
-	/*border-bottom: 1px solid black;*/
 }
