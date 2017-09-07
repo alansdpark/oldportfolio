@@ -16,7 +16,7 @@ h1 {
 
 .jumbotron {
 	color: black;
-	opacity: 0.85;
+	opacity: 0.95;
 	background-color: white;
 }
 
@@ -73,6 +73,15 @@ h1 {
 }
 
 /*dont underline hovered*/
+
+#ContactSection {
+	background-color: gray;
+	height: 50px;
+}
+
+#ContactSection p {
+	margin-bottom: 0;
+}
 
 .jumbotron p {
 	margin-left: 75px;
