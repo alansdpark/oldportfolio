@@ -23,9 +23,25 @@ body {
 }
 
 .navbar-inverse {
-  background: #CD853F;
+  background: #233E2D;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
   color: white;
+}
+
+.jumbotron p {
+	margin-left: 75px;
+	margin-right: 75px;
+	font-size: 16px;
+}
+
+.borderSplit {
+	width: 500px;
+	border-bottom: 1px solid black;
+}
+
+.LosAltos {
+	padding-bottom: 10px;
+	/*border-bottom: 1px solid black;*/
 }
