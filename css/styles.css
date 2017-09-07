@@ -72,6 +72,8 @@ h1 {
 	font-size: 100%;
 }
 
+/*dont underline hovered*/
+
 .jumbotron p {
 	margin-left: 75px;
 	margin-right: 75px;
@@ -88,14 +90,6 @@ h1 {
 
 h3 {
 	margin-bottom: 0;
-}
-
-
-.bordered {
-	/*display: inline-block;*/
-	/*width: 10%;*/
-	/*border: 1px solid black;*/
-	/*background-color: #e3e1e1;*/
 }
 
 .borderSplit {
