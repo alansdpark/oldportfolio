@@ -24,6 +24,17 @@ h1 {
 	/*should collapse at medium or small*/
 }
 
+.Buttons a {
+	color: black;
+	background-color: #d3d3d3;
+	padding: 8px;
+}
+
+.Buttons a:hover {
+	color: gray;
+	background-color: #e3e1e1;
+}
+
 .backgroundChange {
 	color: white;
 	margin-top: 0;
@@ -68,4 +79,5 @@ h1 {
 	width: 500px;
 	border-bottom: 1px solid black;
 	padding-bottom: 10px;
+	margin-top: 10px;
 }
