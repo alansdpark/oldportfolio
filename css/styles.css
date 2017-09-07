@@ -10,8 +10,17 @@ h1 {
 	margin-bottom: 10px;
 }
 
+.intro {
+	margin-left: 0;
+	font-size: 20px;
+}
+
 .images {
 	width: 100%;
+}
+
+.profileImage {
+	width: 80%;
 }
 
 .jumbotron {
@@ -76,7 +85,7 @@ h1 {
 
 #ContactSection {
 	background-color: gray;
-	height: 50px;
+	height: 45px;
 }
 
 #ContactSection p {
