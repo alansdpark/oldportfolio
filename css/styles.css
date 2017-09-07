@@ -1,9 +1,10 @@
 body {
 	font-family: 'Work Sans', sans-serif;
-	background-image: url("Falls2.jpg");
+	background-image: url("OnTopOfRock.jpg"), url("Falls3.jpg"), url("Waves.jpg");
 	background-position: center;
 	background-size: cover;
-	height: 500px;
+	background-repeat: repeat-x, repeat;
+	/*height: 500px;*/
 }
 
 h1 {
