@@ -74,12 +74,13 @@ h1 {
 	color: black;
 }
 
-.navbar-inverse {
-  background: white;
+.navbar {
+	background-color: white;
+	border-bottom: 1px solid black;
 }
 
-.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-  color: black;
+.navbar a {
+	color: black;
 }
 
 .button-small {
