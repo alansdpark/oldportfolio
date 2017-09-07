@@ -7,6 +7,14 @@ body {
 	/*height: 500px;*/
 }
 
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+	color: gray;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+	color: gray;
+}
+
 h1 {
 	margin-bottom: 10px;
 }
