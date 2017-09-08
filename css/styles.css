@@ -43,6 +43,7 @@ h1 {
 	color: black;
 	background-color: #d3d3d3;
 	padding: 8px;
+	text-decoration: none;
 }
 
 .Buttons a:hover {
@@ -74,16 +75,6 @@ h1 {
 .navbar a {
 	color: black;
 }
-
-.button-small {
-	font-size: 85%;
-}
-
-.button-small:hover {
-	font-size: 100%;
-}
-
-/*dont underline hovered*/
 
 #ContactSection {
 	background-color: gray;

@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>Alan Park</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous"> -->
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 	<script src="https://use.fontawesome.com/9fad4783c5.js"></script>
@@ -21,7 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#top" class="navbar-brand"> <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Alan/Park</a>
+          <a href="#topButton" class="navbar-brand topButton"> <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Alan/Park</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-nav-demo">
           <ul class="nav navbar-nav">
@@ -29,25 +28,13 @@
           </ul>          
           <ul class="nav navbar-nav navbar-right">
             <!-- <li><a href="#">About</a></li> -->
-            <li><a href="#portfolio">Portfolio</a></li>
-          	<li><a href="#contact">Contact</a></li>
+            <li><a href="#portfolioButton" class="portfolioTopButton">Portfolio</a></li>
+          	<li><a href="#contactButton" class="contactTopButton">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
 <!-- End navbar -->
-
-<!-- Left navbar -->
-<!-- <div class="container-fluid">
-  <div class="leftMenu">
-    <a href="#top" class="navbar-brand logoA"> <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Alan Park</a>
-    <ul>
-
-    </ul>
-  </div>
-</div> -->
-
-<!-- TODO - Add photo of myself next to my about description -->
 
 <!-- Actual site -->
     <div class="backgroundChange">
@@ -60,7 +47,6 @@
              <a href="https://www.github.com/alansdpark">GitHub</a>
              <a href="https://www.linkedin.com/in/alan-p-568987139">LinkedIn</a>
           </div>
-          <!-- <br> -->
           <div class="borderSplit container-fluid"></div>
           <br>
           <div class="row">
@@ -77,7 +63,7 @@
 
 			</div>
 
-      <div class="jumbotron portfolio text-center">
+      <div id="portfolioTop" class="jumbotron portfolio text-center">
         <h2>Portfolio</h2>
         <div class="row">
           <div class="col-lg-4">
@@ -94,17 +80,13 @@
            <a href="https://github.com/alansdpark/PlantsVsRobotsGame">Plants Vs Robots GitHub Page</a>
            </div>
         </div>
-        <!-- start new row -->
 
         <div class="row">
           <div class="col-lg-4">
-            <!-- insert image here -->
-            <br>
-            <!-- TODO - Fix opacity with image -->
+            <br>            
             <img src="css/StickyTonguePromoScreenshot1.PNG" class="images">
           </div>
           <div class="col-lg-8">
-          <!-- insert description here -->
             <h3>Sticky Tongue</h3>
             <h5>C#</h5>
             <div class="borderSplitPort container-fluid"></div>
@@ -120,12 +102,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <!-- insert image here -->
             <br>
             <img src="css/SublimeWebScreen.PNG" class="images">
           </div>
           <div class="col-lg-8">
-          <!-- insert description here -->
             <h3>alansdpark.github.io</h3>
             <h5>HTML, CSS, Javascript, JQuery</h5>
             <div class="borderSplitPort container-fluid"></div>
@@ -142,12 +122,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <!-- insert image here -->
             <br>
             <img src="css/HeyJimmyScreen.PNG" class="images">
           </div>
           <div class="col-lg-8">
-          <!-- insert description here -->
             <h3>Hey, Jimmy!</h3>
             <h5>C++</h5>
             <div class="borderSplitPort container-fluid"></div>
@@ -161,12 +139,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <!-- insert image here -->
             <br>
             <img src="css/Mortar01.PNG" class="images">
           </div>
           <div class="col-lg-8">
-          <!-- insert description here -->
             <h3>The Past Reef</h3>
             <h5>C++</h5>
             <div class="borderSplitPort container-fluid"></div>
@@ -191,7 +167,10 @@
     </div>
 	</div>
 <!-- End site -->
-	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
 
