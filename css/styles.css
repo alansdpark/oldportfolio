@@ -78,7 +78,8 @@ h1 {
 
 #ContactSection {
 	background-color: gray;
-	height: 45px;
+	height: 110px;
+	font-size: 24px;
 }
 
 #ContactSection p {
