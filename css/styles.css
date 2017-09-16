@@ -11,6 +11,11 @@ h1 {
 	margin-bottom: 10px;
 }
 
+#introName {
+	font-size: 24px;
+	font-weight: bold;
+}
+
 .intro {
 	margin-left: 0;
 	font-size: 22px;
