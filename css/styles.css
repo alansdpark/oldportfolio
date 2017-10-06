@@ -1,10 +1,10 @@
 body {
 	font-family: 'Work Sans', sans-serif;
-	background-image: url("OnTopOfRock.jpg"), url("Falls3.jpg"), url("Waves.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: repeat-x, repeat;
-	/*height: 500px;*/
+	background-color: white;
+}
+
+.descriptionGame {
+	text-align: left;
 }
 
 h1 {
@@ -17,8 +17,13 @@ h1 {
 }
 
 .intro {
-	margin-left: 0;
-	font-size: 22px;
+	font-size: 18px;
+	text-align: left;
+}
+
+.introPara {
+	margin-left: 45px;
+	margin-right: 15px;
 }
 
 .images {
@@ -26,8 +31,8 @@ h1 {
 }
 
 .profileImage {
-	width: 100%;
-	height: 591px;
+	max-width: 390px;
+	margin: auto;
 }
 
 .jumbotron {
@@ -64,14 +69,7 @@ h1 {
 
 .firstJumb {
 	height: 100%;
-	/*margin-right: 0;*/
 	margin: 0;
-	/*width: 100%;*/
-	/*padding-bottom: 51px;*/
-}
-
-.introJumbo {
-	
 }
 
 .TopPart {
@@ -103,17 +101,28 @@ h1 {
 }
 
 .jumbotron p {
-	margin-left: 75px;
+	/*margin-left: 75px;*/
 	margin-right: 75px;
 	font-size: 16px;
 }
 
+.topPartContainer {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.gameDescMarg {
+	margin-left: 0;
+	padding-left: 0;
+}
+
 .borderSplitPort {
-	width: 350px;
+	width: 85%;
 	border-bottom: 1px solid black;
 	padding-bottom: 5px;
 	margin-top: 0px;
-	margin-bottom: 5px;
+	margin-left: 0;
+	margin-bottom: 10px;
 }
 
 h3 {

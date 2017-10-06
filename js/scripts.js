@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-	// $(".topButton").click(function(event) {
-	// 	event.preventDefault();
-	// 	$("html, body").animate({ scrollTop: 0}, 800);
-	// 	return false;
-	// });
-
 	$(".portfolioTopButton").click(function(event) {
 		event.preventDefault();
 		$("html, body").animate({ scrollTop: $("#portfolioTop").offset().top}, 800);
