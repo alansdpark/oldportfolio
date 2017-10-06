@@ -13,13 +13,13 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$(".contactTopButton").click(function(event) {
+	$(".contactTopButton").click(function(event) { // Scrolls to contact section
 		event.preventDefault();
 		$("html, body").animate({ scrollTop: $("#ContactSection").offset().top}, 800);
 		return false;
 	});
 
-	$("#arrowDown").click(function(event) {
+	$("#arrowDown").click(function(event) { // Change icons based on whether drawer is open or not.
 		if (isArrowDown) {
 			isArrowDown = false;
 			
