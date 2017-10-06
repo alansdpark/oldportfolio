@@ -57,6 +57,11 @@ h1 {
 	text-decoration: none;
 }
 
+.Buttons {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .Buttons a:hover {
 	color: gray;
 	background-color: #e3e1e1;
