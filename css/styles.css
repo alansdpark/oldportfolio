@@ -50,6 +50,17 @@ h1 {
 	left: 0;
 }
 
+#arrowDown {
+	text-align: center;
+	font-size: 45px;
+	border: none;
+	background: none;
+}
+
+#arrowDown:focus {
+	outline: none;
+}
+
 .Buttons a {
 	color: black;
 	background-color: #d3d3d3;
