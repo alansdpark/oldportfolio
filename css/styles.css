@@ -16,6 +16,10 @@ h1 {
 	font-weight: bold;
 }
 
+#majorSchool {
+	margin-top: 0;
+}
+
 .intro {
 	font-size: 18px;
 	text-align: left;
