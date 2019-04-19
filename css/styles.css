@@ -25,6 +25,10 @@ h1 {
 	text-align: left;
 }
 
+.relevantInformation {
+	font-size: 16px;
+}
+
 .introPara {
 	margin-left: 45px;
 	margin-right: 15px;
