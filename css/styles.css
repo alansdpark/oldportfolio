@@ -25,6 +25,10 @@ h1 {
 	text-align: left;
 }
 
+.redFont {
+	color: red;
+}
+
 .relevantInformation {
 	font-size: 16px;
 }
