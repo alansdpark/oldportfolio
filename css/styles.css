@@ -11,6 +11,11 @@ h1 {
 	margin-bottom: 10px;
 }
 
+#ProfileImage {
+	margin-top: 25px;
+	text-align: center;
+}
+
 #introName {
 	font-size: 24px;
 	font-weight: bold;
@@ -34,8 +39,10 @@ h1 {
 }
 
 .introPara {
-	margin-left: 45px;
-	margin-right: 15px;
+	/* margin-left: 45px; */
+	/* margin-right: 15px; */
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .images {
@@ -163,7 +170,7 @@ h3 {
 }
 
 .borderSplit {
-	width: 500px;
+	width: 70%;
 	border-bottom: 1px solid black;
 	padding-bottom: 10px;
 	margin-top: 10px;
