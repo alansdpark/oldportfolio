@@ -157,7 +157,7 @@ h1 {
 
 .borderSplitPort {
 	width: 85%;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid gray;
 	padding-bottom: 5px;
 	margin-top: 0px;
 	margin-left: 0;
@@ -175,7 +175,7 @@ h3 {
 
 .borderSplit {
 	width: 70%;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid lightgray;
 	padding-bottom: 10px;
 	margin-top: 10px;
 }
