@@ -15,6 +15,11 @@ $(document).ready(function() {
 
 	$(".contactTopButton").click(function(event) { // Scrolls to contact section
 		event.preventDefault();
+
+		if (isArrowDown) {
+			$("#arrowDown").click();
+		}
+
 		$("html, body").animate({ scrollTop: $("#ContactSection").offset().top}, 800);
 		return false;
 	});
@@ -22,11 +27,11 @@ $(document).ready(function() {
 	$("#arrowDown").click(function(event) { // Change icons based on whether drawer is open or not.
 		if (isArrowDown) {
 			isArrowDown = false;
-			
+
 		} else {
 			isArrowDown = true;
 		}
 		$("#changeArrow").toggleClass('fa-angle-down').toggleClass('fa-angle-up');
-		
+
 	});
 });
