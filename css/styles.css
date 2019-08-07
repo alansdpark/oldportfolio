@@ -15,6 +15,10 @@ h1 {
 	margin-bottom: 10px;
 }
 
+.HeaderSVG {
+	margin-bottom: 5px;
+}
+
 #ProfileImage {
 	margin-top: 25px;
 	text-align: center;
@@ -26,7 +30,7 @@ h1 {
 }
 
 #majorSchool {
-	margin-top: 0;
+	margin-top: 25px;
 }
 
 .intro {
@@ -92,7 +96,7 @@ h1 {
 }
 
 .Buttons {
-	margin-top: 15px;
+	margin-top: 30px;
 	margin-bottom: 15px;
 }
 

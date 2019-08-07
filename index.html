@@ -25,7 +25,13 @@
         <div class="introJumbo text-center">
   				<div class="insideJumbo">
   					<h1>Alan Park</h1>
-            <h3 id="majorSchool">Software Engineering, San Jose State University</h3>
+
+			<div>	
+				<h3 id="majorSchool"><img src="css/location.svg" alt="location icon" class="HeaderSVG"> San Francisco Bay Area</h3>
+			</div>
+            <div>
+				<h3><img src="css/school.svg" alt="school icon" class="HeaderSVG"> Software Engineering B.S., San Jose State University '22</h3>
+			</div>
             <div class="Buttons">
               <a href="#portfolioButton" class="portfolioTopButton">Portfolio</a>
               <a href="#contactButton" class="contactTopButton">Contact</a>
@@ -36,10 +42,10 @@
             <div class="borderSplit container-fluid"></div>
             <br>
                  <span class="intro">
-                   <p id="introName" class="introPara">Hi, I'm Alan.</p>
-                   <p class="introPara">I'm currently pursuing a degree in Software Engineering at SJSU!</p>
-                   <p class="introPara">I've always been interested in computers and programming, especially from constant gaming and troubleshooting growing up.</p>
-                   <p class="introPara">In my free time, I try to work on projects that I find fun, such as creating games or tools that friends and I can use.</p>
+                   <!--
+				   <p id="introName" class="introPara">Hi, I'm Alan.</p>
+                   <p class="introPara">Welcome to my Portfolio!</p>
+				   -->
                    <br/>
                    <button data-toggle="collapse" data-target="#portfolioColl" id="arrowDown">
                     <i class="fa fa-angle-down" aria-hidden="true" id="changeArrow"></i>
@@ -71,9 +77,25 @@
                   <ul>
 					<li>I created a more modern frontend design (utilizing tech such as Bootstrap) for the company
 					web reports system.</li>
-					<li>Solved backend issues, such as an authentication issue caused by deprecated/removed
-						features in MySQL. This involved adding new required parameters in order to return specific
-						web reports.
+					<li>Solved backend issues: 
+						<ul>
+							<li>
+								Authentication issue caused by deprecated/removed functions (OLD_PASSWORD() and PASSWORD()) in MySQL. 
+								I solved this by creating a new PHP script/tool for the IT manager that acted as a 
+								password changer by entering in a username and new password.
+							</li>
+							<li>
+								Deprecated password functions allowed anyone to access all of web reports system with just a username(no/incorrect password would still let user in).
+								I solved this by requiring a new user password parameter in an auth.php file, which would be grabbed from the $_SESSION.
+							</li>
+							<li>
+								New password parameter in auth.php broke "Return to Menu" buttons, which either used "history.go(-1)" or went to "menu.php" file using
+								an anchor tag with username/password as parameter. The original method showed the user's password and username in the URL of the web browser, or simply
+								did not return to the menu at all, as it did not recieve any POST data.
+								I solved this routing/security issue by updating all buttons to act as a hidden form, with POST data including the $_SESSION username and password.
+							</li>
+
+						</ul>	
 					</li>
 					<li>
 						Learned basics of Laravel, a PHP framework, as the web reports system only used
@@ -351,7 +373,7 @@
           Contact me at:
         </p>
         <p>
-          alan@cloudseason.org
+		  alansdpark@gmail.com
         </p>
       </footer>
 
