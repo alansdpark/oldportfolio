@@ -85,7 +85,7 @@
 							</li>
 							<li>
 								Authentication issue caused by deprecated/removed functions (OLD_PASSWORD() and PASSWORD()) in MySQL.
-								This allowed anyone to access all of web reports system with just a username(no/incorrect password would still let user in).
+								This allowed anyone access to all web reports with just a username(no/incorrect password would still let user in).
 								Solved by requiring a new user password parameter in an auth.php file, which would be grabbed from the $_SESSION.
 							</li>
 							<li>
