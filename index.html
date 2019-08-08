@@ -84,7 +84,7 @@
 								Password changer - Enter in a username and new password. Completes this through Update function in MySQL.
 							</li>
 							<li>
-								Authentication issue caused by deprecated/removed functions (OLD_PASSWORD() and PASSWORD()) in MySQL.
+								Authentication issue caused by deprecated/removed password hasing functions in MySQL.
 								This allowed anyone access to all web reports with just a username(no/incorrect password would still let user in).
 								Solved by requiring a new user password parameter in an auth.php file, which would be grabbed from the $_SESSION.
 							</li>
