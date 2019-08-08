@@ -86,7 +86,7 @@
 							<li>
 								Authentication issue caused by deprecated/removed functions (OLD_PASSWORD() and PASSWORD()) in MySQL.
 								This allowed anyone to access all of web reports system with just a username(no/incorrect password would still let user in).
-								I solved this by requiring a new user password parameter in an auth.php file, which would be grabbed from the $_SESSION.
+								Solved by requiring a new user password parameter in an auth.php file, which would be grabbed from the $_SESSION.
 							</li>
 							<li>
 								Solved security flaw in "Return to Menu" button, by changing from an anchor tag with user id/password in URL to a hidden form with POST data utilizing
