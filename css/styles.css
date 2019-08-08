@@ -3,6 +3,10 @@ body {
 	background-color: white;
 }
 
+.HeaderFont {
+	font-family: serif!important;
+}
+
 .descriptionGame {
 	text-align: left;
 }
@@ -178,7 +182,7 @@ h3 {
 }
 
 .borderSplit {
-	width: 59%;
+	width: 50%;
 	border-bottom: 1px solid lightgray;
 	padding-bottom: 10px;
 	margin-top: 10px;
