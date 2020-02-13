@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab56d0cb.chunk.css",
+    "main.js": "/static/js/main.170aa137.chunk.js",
+    "main.js.map": "/static/js/main.170aa137.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.93f2d76d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.93f2d76d.js.map",
+    "static/js/2.7a48b7a1.chunk.js": "/static/js/2.7a48b7a1.chunk.js",
+    "static/js/2.7a48b7a1.chunk.js.map": "/static/js/2.7a48b7a1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e9630fb6f0efd479e3b87d1ac9aef47d.js": "/precache-manifest.e9630fb6f0efd479e3b87d1ac9aef47d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ab56d0cb.chunk.css.map": "/static/css/main.ab56d0cb.chunk.css.map",
+    "static/js/2.7a48b7a1.chunk.js.LICENSE.txt": "/static/js/2.7a48b7a1.chunk.js.LICENSE.txt",
+    "static/media/SenjuComtekLogo.png": "/static/media/SenjuComtekLogo.58201932.png",
+    "static/media/SenjuPrac.png": "/static/media/SenjuPrac.dfd192bb.png",
+    "static/media/alandparkcom.png": "/static/media/alandparkcom.decb52d8.png",
+    "static/media/alansdpark.png": "/static/media/alansdpark.9f0c26d1.png",
+    "static/media/close-24px.svg": "/static/media/close-24px.5bb294ba.svg",
+    "static/media/cloudseasonorg.png": "/static/media/cloudseasonorg.7072e46a.png",
+    "static/media/ergoio.png": "/static/media/ergoio.3d4f3b31.png",
+    "static/media/keyboard_arrow_down-24px.svg": "/static/media/keyboard_arrow_down-24px.aa9362ab.svg",
+    "static/media/menu-24px.svg": "/static/media/menu-24px.55f68494.svg",
+    "static/media/plantsrobots.png": "/static/media/plantsrobots.1015dd31.png",
+    "static/media/sjsu.jpg": "/static/media/sjsu.38465bf3.jpg",
+    "static/media/stickytongue.png": "/static/media/stickytongue.1a1199fa.png",
+    "static/media/transposit.png": "/static/media/transposit.e61fdbb2.png",
+    "static/media/traveleasii.png": "/static/media/traveleasii.0c7a696f.png",
+    "static/media/twooneplay.png": "/static/media/twooneplay.c31d38d1.png",
+    "static/media/unsplash-shore.jpg": "/static/media/unsplash-shore.eefa8474.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93f2d76d.js",
+    "static/js/2.7a48b7a1.chunk.js",
+    "static/css/main.ab56d0cb.chunk.css",
+    "static/js/main.170aa137.chunk.js"
+  ]
+}
