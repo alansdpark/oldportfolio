@@ -1,0 +1,190 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+	background-color: white;
+}
+
+.HeaderFont {
+	font-family: serif!important;
+}
+
+.descriptionGame {
+	text-align: left;
+}
+
+.SectionTitle {
+	font-size: 42px;
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+.HeaderSVG {
+	margin-bottom: 5px;
+}
+
+#ProfileImage {
+	margin-top: 25px;
+	text-align: center;
+}
+
+#introName {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#majorSchool {
+	margin-top: 25px;
+}
+
+.intro {
+	font-size: 18px;
+	text-align: left;
+}
+
+.redFont {
+	color: red;
+}
+
+.relevantInformation {
+	font-size: 16px;
+}
+
+.introPara {
+	/* margin-left: 45px; */
+	/* margin-right: 15px; */
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.images {
+	width: 100%;
+	max-width: 400px;
+}
+
+.profileImage {
+	max-width: 390px;
+	margin: auto;
+}
+
+.jumbotron {
+	color: black;
+	opacity: 0.95;
+	background-color: white;
+}
+
+.leftMenu {
+	margin-left: 0px;
+	height: 100%;
+	background-color: white;
+	width: 17%;
+	position: fixed;
+	left: 0;
+}
+
+#arrowDown {
+	text-align: center;
+	font-size: 45px;
+	border: none;
+	background: none;
+}
+
+#arrowDown:focus {
+	outline: none;
+}
+
+.Buttons a {
+	color: black;
+	background-color: #d3d3d3;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.Buttons {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.Buttons a:hover {
+	color: gray;
+	background-color: #e3e1e1;
+}
+
+.backgroundChange {
+	color: white;
+	margin-top: 0;
+}
+
+.firstJumb {
+	height: 100%;
+	margin: 0;
+}
+
+.TopPart {
+	padding-bottom: 25px;
+}
+
+.insideJumbo {
+	opacity: 1.0;
+	color: black;
+}
+
+.navbar {
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+
+.navbar a {
+	color: black;
+}
+
+#ContactSection {
+	background-color: gray;
+	height: 75px;
+	font-size: 24px;
+}
+
+#ContactSection p {
+	margin-bottom: 0;
+}
+
+.jumbotron p {
+	/*margin-left: 75px;*/
+	margin-right: 75px;
+	font-size: 16px;
+}
+
+.topPartContainer {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.gameDescMarg {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.borderSplitPort {
+	width: 85%;
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+.ImageProp {
+	margin: 0;
+	padding: 0;
+}
+
+.borderSplit {
+	width: 50%;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
